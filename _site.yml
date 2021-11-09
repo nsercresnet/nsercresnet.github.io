@@ -1,0 +1,8 @@
+name: "resnet-data-docs"
+navbar:
+  title: "ResNet Data Documentation"
+  left:
+    - text: "Library"
+      href: index.html
+    # - text: "About"
+    #   href: about.html
