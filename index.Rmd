@@ -2,5 +2,8 @@
 title: "Library"
 ---
 
+### Resources
+- GeoNode Users' guide
+
 ### Presentations
-- 2021-10-29 Metadata Training: [Google Slides](https://docs.google.com/presentation/d/17MwEvf0QfGcrHkv3EZAbYMBLauSgJya8xeBm8oNkuiU/edit?usp=sharing)
+- 2021-10-29: Metadata Training ([Google Slides](https://docs.google.com/presentation/d/17MwEvf0QfGcrHkv3EZAbYMBLauSgJya8xeBm8oNkuiU/edit?usp=sharing), [PDF](pdfs/ResNet Metadata Training 20211029 archive.pdf))
