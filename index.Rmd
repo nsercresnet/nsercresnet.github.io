@@ -3,7 +3,9 @@ title: "Library"
 ---
 
 ### Resources
-- GeoNode Users' guide
+- ResNet Metadata Questionnaire Form v1.0 ([Google Document](https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing))
 
 ### Presentations
 - 2021-10-29: Metadata Training ([Google Slides](https://docs.google.com/presentation/d/17MwEvf0QfGcrHkv3EZAbYMBLauSgJya8xeBm8oNkuiU/edit?usp=sharing), [PDF](pdfs/ResNet Metadata Training 20211029 archive.pdf))
+- 2021-10-15: Data Policy ([Google Slides](https://docs.google.com/presentation/d/1tYxQas8iBCHmPuORAEaGmBYcr3HhwOxi84IKWlzKhQs/edit?usp=sharing), [PDF](pdfs/bResNet Data Policy - Monthly Meeting 20211015 archive.pdf))
+- 20210507: AGM 2021 Dashboards & Data Management ([Google Slides](https://docs.google.com/presentation/d/1Fr8cN4jJoV6gFNnB-6O3eJiBMRA0XiHGvDHOz4pkpio/edit?usp=sharing), [PDF](pdfs/ResNet AGM2021 Dashboard Data Mgmt 20210507 archive.pdf))
