@@ -1,0 +1,92 @@
+﻿Metadata Questionnaire  
+
+
+This questionnaire was adapted from a document developed by the USGS[1]. The following 20 questions will provide the minimal content to create a metadata record. Not all the questions may apply to the product you are trying to describe. Use `Shift+Enter` to start a new line within the numbered list.
+
+
+1. What is the approximate location of your project?  Please provide general descriptions (province/territory, municipality, general region, lat-longs, etc.). (Description of Geographic Extent, Bounding Coordinates, Place Keywords).
+
+2. Who is the originator/owner of the data set (who created the data)? (Originator)
+
+   1. If the originator (or someone else) can be listed in the metadata to answer questions about the data, please list the name, address, telephone number, and email. (Point of Contact)
+
+   2. Are there other organizations or individuals who should get credit for support, funding, or data collection and analysis? (Dataset Credit)
+
+      3. Include a brief description of the data set. Please be as detailed as possible as this will help future users understand the data: (Abstract)
+
+         1. What format are the data stored in – shapefile, raster, spreadsheet, database, ArcInfo coverage, text file, other (please identify). (Geospatial Presentation Form) If known, also include the software version. (Native Dataset Environment) 
+
+         2. Are the data sensitive or classified (e.g. locations of endangered species) ? Are there legal restrictions on who may obtain/use the data? (Access / Use Constraints)
+
+            4. Why were the data collected (How will they be used in the scheme of a project, or how could they be used by future researchers)? (Purpose)
+
+            5. Are there any publications associated with this data or related works that help explain the methods or content of the data? Does the data support or represent the findings of a published project? Please include citations for these works, if relevant. (Cross Reference or Larger Work Citation)
+
+            6. What is the time period represented by the data set? (e.g. what are the beginning and ending dates of collection for the data that is represented?) (Time Period)
+
+            7. Were the data developed primarily through: (Currentness Reference)
+
+               1. Field visits?
+               2. Remote instrumentation (i.e. temperature recorders, etc)?
+               3. Existing data sources?
+
+                  8. What is the status of the data you are documenting? – “complete”, “in progress”, or “planned” (Status)
+
+                     1. Are there plans to update the data?  (Maintenance & Update Frequency)
+
+                     2. If so, how frequently? Weekly, Monthly, Annually, Irregular, or As Needed
+
+                        9. Please list any keywords associated with this project (minimum of at least 1 thematic keyword required). (Keywords: theme, place, stratum, temporal, taxonomy).
+
+                        10. Does the data set contain taxonomic information? If no, skip to question 11
+. 
+                           1. What important species or communities were examined or are documented in the data? (Taxonomy)   
+
+                           2. Did you use a taxonomic authority or field guide for identification?
+
+                              1. If so, what is the reference?
+
+                              2. Describe any modifications, if any, to the classification.
+
+                                 11. Did you use any established/published methods or techniques in your field, lab, or analysis work (cut & paste from other documents when possible)?  If you used standard, published protocols/methods, simply put the complete citation for the reference in 12a below. Essentially, if a method is well documented it can simply be listed here, with a citation, rather than in detail as a ‘processing step’ below. (Methodology, Methodology Keywords)
+
+                                    1. If you used existing protocols or methods, list the references (Methodology Citation)
+
+                                       12. Were your data processed with a model or other analytical tool?  Examples include DISTANCE, Program Mark, and the Century Model.  If no, skip to question 13. (Analytical Tools)
+
+                                          1. Please provide a brief description of the model or tool.
+
+                                          2. Is the tool or model readily available?  If so, please include a URL, contact address, etc.
+
+                                             13. What measures, if any, did you take to make certain that your data set was as correct as possible? (e.g. instrument calibrations, spot checking data, spreadsheet macros for outliers, accuracy assessment matrices, etc.) (Attribute Accuracy Report)
+
+                                             14. Were there any things that you excluded from your data collection, e.g. stems less than a certain diameter, streams without surface flow, abandoned wells, proprietary data, etc.?  If the data are from multiple years or sites, are all years/sites represented? (Completeness Report)
+
+                                             15. Please provide a short description of what each field in the attribute table means (include units of measure if applicable).  This section will describe the fields and values of the dataset. (Entity & Attribute). Make sure future data users will understand what the fields represent and the definitions of any values that they contain.
+
+                                                1. Do any values in the dataset represent codes from a data dictionary or code book (Taxonomic or biological abbreviations, etc.)?  If so, please provide references for where these values can be explained. This can be a more efficient way to document for future users what values mean, instead of providing full, detailed explanations within the metadata document itself (Entity & Attribute – “Codeset”)
+
+                                                   16. Does dataset contain spatial information? (Spatial Reference) If no, skip to question 17.
+
+                                                      1. What are the projection parameters (include datum), if not defined in the coverage or shape file?
+
+                                                      2. If the data represent a static table that contains Lat./Long. information, list the datum in which these values are recorded.
+
+                                                         17. List the processing steps you used to create your data set, including the approximate date of processing. (Processing Steps). If the dates are unknown, simply list ‘Unknown.’
+
+                                                         18. List any source data sets you used.  (Source Inputs) For each source list the items below. Just try to provide as much info as you can. If you were pulling shapefiles from different data sets we just want to know where they came from. If you have URL’s or a published data series you can point back to, that is helpful as well.
+                                                            1. Source name, originator and publication date
+                                                            2. Source time period and geographic scale  
+                                                            3. Source presentation form and media type
+                                                            4. Contribution of the source to your analysis 
+
+                                                               19. Is the data set available to other researchers?  If not, skip to question 20. (Distribution Info).
+                                                               1. Are you the distributor?  How can the data be obtained?  If via the web, please include the URL. If you are not the distributor, please provide name, address, and phone number of the person/agency who is distributing the data.   
+
+                                                                  20. Do you have any advice for potential users of the data set? If there is any other pertinent information you feel should be captured in the metadata, please feel free to list it or describe anything in free text as general information. (Supplemental Info).   
+
+
+________________
+[1] "U.S. Geological Survey - Data Management Guidance Materials / White Papers" (Various Authors)
+Resources obtained from USGS staff and/or the USGS Data Management website
+(https://www.usgs.gov/datamanagement), November 2015.

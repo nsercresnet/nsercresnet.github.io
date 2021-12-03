@@ -1,0 +1,21 @@
+---
+  title: "Data Portal User Guide"
+  output:
+    html_document:
+      toc: true
+      toc_float: true
+      number_sections: true
+      theme: flatly
+---
+
+# Getting Orientated
+
+![](images/paste-767165D1.png)
+
+![](images/paste-72CA2DFC.png)
+
+## Organization
+
+# Registering
+
+# Uploading Data

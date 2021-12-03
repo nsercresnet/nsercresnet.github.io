@@ -4,6 +4,11 @@ navbar:
   left:
     - text: "Library"
       href: index.html
+    - text: "Data Portal Guide"
+      href: portal_guide.html
     # - text: "About"
     #   href: about.html
 output_dir: "docs"
+output:
+  html_document:
+    theme: flatly
