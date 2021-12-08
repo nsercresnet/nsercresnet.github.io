@@ -5,10 +5,19 @@ navbar:
     - text: "Library"
       href: index.html
     - text: "Data Portal Guide"
-      href: portal_guide.html
+      href: http://docs.nsercresnet.ca/data-portal-guide/
     # - text: "About"
     #   href: about.html
 output_dir: "docs"
+# output:
+#   html_document:
+#     theme: flatly
 output:
-  html_document:
-    theme: flatly
+  rmdformats::readthedown:
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+    darkThemeToggler: false
+    css: styles.css
+    use_bookdown: true

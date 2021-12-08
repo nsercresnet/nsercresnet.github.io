@@ -1,5 +1,8 @@
 ---
 title: "Library"
+output:
+  html_document:
+    theme: flatly
 ---
 
 ### Resources
@@ -13,4 +16,3 @@ title: "Library"
 -   20210507: AGM 2021 Dashboards & Data Management ([Google Slides](https://docs.google.com/presentation/d/1Fr8cN4jJoV6gFNnB-6O3eJiBMRA0XiHGvDHOz4pkpio/edit?usp=sharing), [PDF](pdfs/ResNet%20AGM2021%20Dashboard%20Data%20Mgmt%2020210507%20archive.pdf))
 
 ### External
-
