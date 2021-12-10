@@ -1,12 +1,13 @@
 ---
 title: "Library"
-output:
-  html_document:
-    theme: flatly
+# output:
+#   html_document:
+#     theme: flatly
 ---
 
 ### Resources
 
+-   [Data Portal User Guide](http://docs.nsercresnet.ca/data-portal-guide/)
 -   ResNet Metadata Questionnaire Form v1.0 ([Google Document](https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing))
 
 ### Presentations

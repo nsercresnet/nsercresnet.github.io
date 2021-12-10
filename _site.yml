@@ -9,15 +9,15 @@ navbar:
     # - text: "About"
     #   href: about.html
 output_dir: "docs"
-# output:
-#   html_document:
-#     theme: flatly
 output:
-  rmdformats::readthedown:
-    thumbnails: true
-    lightbox: true
-    gallery: false
-    highlight: tango
-    darkThemeToggler: false
-    css: styles.css
-    use_bookdown: true
+  html_document:
+    theme: flatly
+# output:
+#   rmdformats::readthedown:
+#     thumbnails: true
+#     lightbox: true
+#     gallery: false
+#     highlight: tango
+#     darkThemeToggler: false
+#     css: styles.css
+#     use_bookdown: true
