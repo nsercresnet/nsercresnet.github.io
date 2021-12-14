@@ -4,8 +4,8 @@ navbar:
   left:
     - text: "Library"
       href: index.html
-    - text: "Data Portal Guide"
-      href: http://docs.nsercresnet.ca/data-portal-guide/
+    # - text: "Data Portal Guide"
+    #   href: http://docs.nsercresnet.ca/data-portal-guide/
     # - text: "About"
     #   href: about.html
 output_dir: "docs"
