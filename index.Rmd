@@ -16,7 +16,7 @@ title: "Library"
 -   2021-10-15: Data Policy ([Google Slides](https://docs.google.com/presentation/d/1tYxQas8iBCHmPuORAEaGmBYcr3HhwOxi84IKWlzKhQs/edit?usp=sharing){target="_blank"}, [PDF](pdfs/ResNet%20Data%20Policy%20-%20Monthly%20Meeting%2020211015%20archive.pdf){target="_blank"})
 -   2021-05-07: AGM 2021 Dashboards & Data Management ([Google Slides](https://docs.google.com/presentation/d/1Fr8cN4jJoV6gFNnB-6O3eJiBMRA0XiHGvDHOz4pkpio/edit?usp=sharing){target="_blank"}, [PDF](pdfs/ResNet%20AGM2021%20Dashboard%20Data%20Mgmt%2020210507%20archive.pdf){target="_blank"})
 
-### Policy
+### Network Policy
 
 - ResNet Data Policy ([PDF](pdfs/ResNet%20Data%20Policy.pdf){target="_blank"})
 
@@ -29,3 +29,4 @@ title: "Library"
 
 -   [ResNet Home](https://www.nsercresnet.ca){target="_blank"}
 -   [ResNet Data Portal](https://data.nsercresnet.ca){target="_blank"}
+-   [ResNet Metadata Questionnaire](https://apps.nsercresnet.ca/){target="_blank"}
