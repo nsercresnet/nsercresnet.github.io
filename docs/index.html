@@ -13,7 +13,7 @@
 
 <title>Library</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -264,30 +265,63 @@ $(document).ready(function () {
 <div id="resources" class="section level3">
 <h3>Resources</h3>
 <ul>
-<li><a href="http://docs.nsercresnet.ca/data-portal-guide/" target="_blank">Data Portal User Guide</a></li>
-<li>ResNet Metadata Questionnaire Form v1.0 (<a href="https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing" target="_blank">Google Document</a>)</li>
+<li><a href="http://docs.nsercresnet.ca/data-portal-guide/"
+target="_blank">Data Portal User Guide</a></li>
+<li>ResNet Metadata Questionnaire Form v1.0 (<a
+href="https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing"
+target="_blank">Google Document</a>)</li>
 </ul>
 </div>
 <div id="presentations" class="section level3">
 <h3>Presentations</h3>
 <ul>
-<li>2021-10-29: Metadata Training (<a href="https://docs.google.com/presentation/d/17MwEvf0QfGcrHkv3EZAbYMBLauSgJya8xeBm8oNkuiU/edit?usp=sharing" target="_blank">Google Slides</a>, <a href="pdfs/ResNet%20Metadata%20Training%2020211029%20archive.pdf" target="_blank">PDF</a>)</li>
-<li>2021-10-15: Data Policy (<a href="https://docs.google.com/presentation/d/1tYxQas8iBCHmPuORAEaGmBYcr3HhwOxi84IKWlzKhQs/edit?usp=sharing" target="_blank">Google Slides</a>, <a href="pdfs/bResNet%20Data%20Policy%20-%20Monthly%20Meeting%2020211015%20archive.pdf" target="_blank">PDF</a>)</li>
-<li>2021-05-07: AGM 2021 Dashboards &amp; Data Management (<a href="https://docs.google.com/presentation/d/1Fr8cN4jJoV6gFNnB-6O3eJiBMRA0XiHGvDHOz4pkpio/edit?usp=sharing" target="_blank">Google Slides</a>, <a href="pdfs/ResNet%20AGM2021%20Dashboard%20Data%20Mgmt%2020210507%20archive.pdf" target="_blank">PDF</a>)</li>
+<li>2021-10-29: Metadata Training (<a
+href="https://docs.google.com/presentation/d/17MwEvf0QfGcrHkv3EZAbYMBLauSgJya8xeBm8oNkuiU/edit?usp=sharing"
+target="_blank">Google Slides</a>, <a
+href="pdfs/ResNet%20Metadata%20Training%2020211029%20archive.pdf"
+target="_blank">PDF</a>)</li>
+<li>2021-10-15: Data Policy (<a
+href="https://docs.google.com/presentation/d/1tYxQas8iBCHmPuORAEaGmBYcr3HhwOxi84IKWlzKhQs/edit?usp=sharing"
+target="_blank">Google Slides</a>, <a
+href="pdfs/ResNet%20Data%20Policy%20-%20Monthly%20Meeting%2020211015%20archive.pdf"
+target="_blank">PDF</a>)</li>
+<li>2021-05-07: AGM 2021 Dashboards &amp; Data Management (<a
+href="https://docs.google.com/presentation/d/1Fr8cN4jJoV6gFNnB-6O3eJiBMRA0XiHGvDHOz4pkpio/edit?usp=sharing"
+target="_blank">Google Slides</a>, <a
+href="pdfs/ResNet%20AGM2021%20Dashboard%20Data%20Mgmt%2020210507%20archive.pdf"
+target="_blank">PDF</a>)</li>
+</ul>
+</div>
+<div id="policy" class="section level3">
+<h3>Policy</h3>
+<ul>
+<li>ResNet Data Policy (<a href="docs/ResNet%20Data%20Policy.pdf"
+target="_blank">PDF</a>)</li>
 </ul>
 </div>
 <div id="external" class="section level3">
 <h3>External</h3>
 <ul>
-<li>Good enough practices in scientific computing. Wilson et al., 2017 (<a href="https://doi.org/10.1371/journal.pcbi.1005510" target="_blank">DOI</a>, <a href="pdfs/Good-Enough-Computing_Wilson_2017.pdf" target="_blank">PDF</a>)</li>
-<li>Operationalizing the CARE and FAIR Principles for Indigenous data futures. Carroll et al., 2021 (<a href="https://doi.org/10.1038/s41597-021-00892-0" target="_blank">DOI</a>, <a href="pdfs/Operationalize-CARE-FAIR_Carroll_2021.pdf" target="_blank">PDF</a>)</li>
+<li>Good enough practices in scientific computing. Wilson et al., 2017
+(<a href="https://doi.org/10.1371/journal.pcbi.1005510"
+target="_blank">DOI</a>, <a
+href="pdfs/Good-Enough-Computing_Wilson_2017.pdf"
+target="_blank">PDF</a>)</li>
+<li>Operationalizing the CARE and FAIR Principles for Indigenous data
+futures. Carroll et al., 2021 (<a
+href="https://doi.org/10.1038/s41597-021-00892-0"
+target="_blank">DOI</a>, <a
+href="docs/pdfs/Operationalize-CARE-FAIR_Carroll_2021.pdf"
+target="_blank">PDF</a>)</li>
 </ul>
 </div>
 <div id="links" class="section level3">
 <h3>Links</h3>
 <ul>
-<li><a href="https://www.nsercresnet.ca" target="_blank">ResNet Home</a></li>
-<li><a href="https://data.nsercresnet.ca" target="_blank">ResNet Data Portal</a></li>
+<li><a href="https://www.nsercresnet.ca" target="_blank">ResNet
+Home</a></li>
+<li><a href="https://data.nsercresnet.ca" target="_blank">ResNet Data
+Portal</a></li>
 </ul>
 </div>
 
