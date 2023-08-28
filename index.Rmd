@@ -8,7 +8,8 @@ title: "Library"
 ### Resources
 
 -   [Data Portal User Guide](http://docs.nsercresnet.ca/data-portal-guide/){target="_blank"}
--   ResNet Metadata Questionnaire Form v1.0 ([Google Document](https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing){target="_blank"})
+-   [ResNet Metadata Questionnaire (MetaQuest)](https://apps.nsercresnet.ca/){target="_blank"}
+<!-- -   ResNet Metadata Questionnaire Form v1.0 ([Google Document](https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing){target="_blank"}) -->
 
 ### Presentations
 
