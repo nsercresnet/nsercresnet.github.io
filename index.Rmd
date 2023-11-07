@@ -7,8 +7,9 @@ title: "Library"
 
 ### Resources
 
--   [Data Portal User Guide](http://docs.nsercresnet.ca/data-portal-guide/){target="_blank"}
 -   [ResNet Metadata Questionnaire (MetaQuest)](https://apps.nsercresnet.ca/){target="_blank"}
+-   [ResNet Data Portal](http://data.nsercresnet.ca/){target="_blank"}
+-   [ResNet Data Portal User Guide](http://docs.nsercresnet.ca/data-portal-guide/){target="_blank"}
 <!-- -   ResNet Metadata Questionnaire Form v1.0 ([Google Document](https://docs.google.com/document/d/17_JSYg62wC2alPnd7VsxYzYmadRJkHyNO-QOon0-xB4/edit?usp=sharing){target="_blank"}) -->
 
 ### Presentations
@@ -26,8 +27,9 @@ title: "Library"
 -   Good enough practices in scientific computing. Wilson et al., 2017 ([DOI](https://doi.org/10.1371/journal.pcbi.1005510){target="_blank"}, [PDF](pdfs/Good-Enough-Computing_Wilson_2017.pdf){target="_blank"})
 -   Operationalizing the CARE and FAIR Principles for Indigenous data futures. Carroll et al., 2021 ([DOI](https://doi.org/10.1038/s41597-021-00892-0){target="_blank"}, [PDF](pdfs/Operationalize-CARE-FAIR_Carroll_2021.pdf){target="_blank"})
 
-### Links
+### Apps
 
--   [ResNet Home](https://www.nsercresnet.ca){target="_blank"}
--   [ResNet Data Portal](https://data.nsercresnet.ca){target="_blank"}
--   [ResNet Metadata Questionnaire](https://apps.nsercresnet.ca/){target="_blank"}
+-   [Monteregie Story Map](https://apps.nsercresnet.ca/story/monteregie/){target="_blank"}
+<!-- -   [ResNet Home](https://www.nsercresnet.ca){target="_blank"} -->
+<!-- -   [ResNet Data Portal](https://data.nsercresnet.ca){target="_blank"} -->
+<!-- -   [ResNet Metadata Questionnaire](https://apps.nsercresnet.ca/){target="_blank"} -->
